@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #FFA500;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+}
+
+.search-icon {
+    color: #888;
+    margin-right: 5px;
+}
+
+.pizza-banner {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pizza-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.pizza-item {
+    width: 30%;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pizza-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pizza-item h3 {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.pizza-item p {
+    padding: 0 10px 10px;
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.delivery-section {
+    display: flex;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-image {
+    width: 30%;
+}
+
+.delivery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.delivery-content {
+    width: 40%;
+    padding: 20px;
+}
+
+.delivery-content h2 {
+    color: #d32f2f;
+    margin-top: 0;
+}
+
+.reservation-image {
+    width: 30%;
+}
+
+.reservation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+
+    .pizza-menu,
+    .delivery-section {
+        flex-direction: column;
+    }
+
+    .pizza-item,
+    .delivery-image,
+    .delivery-content,
+    .reservation-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-left,
+.footer-right {
+    margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
