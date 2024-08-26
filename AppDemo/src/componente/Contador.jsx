@@ -14,6 +14,7 @@ function Contador()
             <div className="col-md-auto">
             <p className="display-4 text-center" >Haz realizado {contar} veces clic en el botón </p>
             <button onClick={hacerClick} className="btn btn-danger">Contar</button>
+            <img src="" alt="" />
             </div>
             </div>
             </div>

@@ -1,12 +1,15 @@
 import { Fragment } from "react";
-import Mensaje from "./componente/Mensaje";
-import Contador from './componente/Contador';
-function App()
-{
-  return(
+import Formulario from "./componente/Formulario";
+import 'bootstrap/dist/css/bootstrap.min.css';
+function App() {
+  return (
     <>
-      <Mensaje/>
-      <Contador/>
+      <div className="container containmer-fluid">
+        <br />
+        <br />
+        <h1>Ingresa tus datos</h1>
+        <Formulario />
+      </div>
     </>
   );
 }
