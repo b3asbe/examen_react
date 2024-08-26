@@ -1,14 +1,12 @@
 import { Fragment } from "react"
+import Logo from "./Logo";
 
 function Encabezado(){
   return (
     <>
      
         <header>
-            <div class="logo">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwFBxvYWz-pf_xyUzeWkTIP_nwW6A3QKwdhAs-6Y4dm9-YCkd3_I_hGveW9Kh4feeizy8fa51q4zo7nY993WHmBELTmGtsqL-hcFH7Ln9L0UB1CcSibrwXRoN3TmP5V2_BATnNEf67bl9A4ZJwPeYbyYZyeFz5KQ0MfjS8c-KdhC6_hF6ZHg_s0JoH6WE/s1600/logo.jpg"
-                    alt="Logo Turismo"/>
-            </div>
+            <Logo/>
             <div class="social-icons">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhopC0RC3sUqSYo7WfoK2iUSwBTDB8r1nJ8W6pMQG5lunBuAs4IHaW0Jjud1pic9ObnyRj_WkoFR4gpg50Bs7r5ZEk_yTEZyZcE2xWhLphUoOHFYmELgQNJjn89agBjQoQAlImoiajR3SNow8TvATM6IOmDCqdQQXC5WsbAvYAXhKjAXGsOkdvNjxKKKp8/s1600/face.png"
                     alt="Facebook" />

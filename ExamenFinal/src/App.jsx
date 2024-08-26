@@ -4,7 +4,7 @@ import './App.css';
 import Encabezado from "./componente/Encabezado";
 import Cuerpo from "./componente/Cuerpo";
 import Carusel from "./componente/Carusel";
-import './js/app.js';
+import Pie from "./componente/Pie.jsx";
 function App()
 {
 
@@ -15,6 +15,7 @@ function App()
     <Encabezado/>
     <Carusel/>
     <Cuerpo/>
+    <Pie/>
     </div>
     </body>
     </>
